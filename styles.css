@@ -1,0 +1,75 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    color: #000000;
+    scrollbar-width: thin;
+    scrollbar-color: #ffd700 #252525;
+    background-image: url(background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+::-webkit-scrollbar {
+    width: 8px;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #252525;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #ffd700;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #e0a800;
+}
+header {
+    padding: 20px;
+    position: relative;
+    top: 10px;
+    left: 10px;
+    right: 10px;
+    width: 1474px;
+}
+
+header h1
+{
+    color: #ffffff;
+}
+
+header a 
+{
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 20px;
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+
+header a:hover {
+    color: #00ebef;
+}
+
+nav {
+    box-shadow:0 4px 10px rgba(226, 35, 35, 0.5);
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+}
+
+#divider
+{
+    width: 2px;
+    height: 50px;
+    background-color: #ffd700;
+    display: inline-block;
+    margin-left: 5px;
+    margin-right: 5px;
+}
